@@ -1,0 +1,8 @@
+{
+    "ui-seed": {
+        "title": "UI Seed",
+        "tabs": {
+            "home": "Home",
+        }
+    }
+}

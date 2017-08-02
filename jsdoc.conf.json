@@ -1,0 +1,27 @@
+{
+  "templates": {
+    "systemName":        "XREF UI",
+    "cleverLinks":       false,
+    "monospaceLinks":    false,
+    "theme":             "Lumen",
+    "outputSourceFiles": true,
+    "outputSourcePath":  true,
+    "linenums":          true
+  },
+
+  "opts": {
+    "destination": "./docs/",
+    "recurse":     true
+  },
+
+  "plugins": [
+    "plugins/markdown",
+    "node_modules/jsdoc-ignore-future",
+    "node_modules/jsdoc-escape-at"
+  ],
+
+  "ignoreFuture": {
+    "start": "es-future>",
+    "end":   "<es-future"
+  }
+}
