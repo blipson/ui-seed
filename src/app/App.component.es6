@@ -29,7 +29,7 @@ class AppComponent {
     navItems = [
         {
             state: 'home',
-            name:  '{{ "ui-seed.tabs.home" | translate }}',
+            name:  '{{ "UI Seed" | translate }}', // Translation isn't working
         },
     ];
 

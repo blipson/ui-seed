@@ -7,7 +7,7 @@ import DateTime                   from 'webui-core/modules/datetime';
 import Intercom                   from 'webui-core/modules/intercom';
 import Feedback                   from 'webui-feedback';
 
-
+import HomeModule           from './home/Home.module';
 import AppComponent         from './App.component';
 import AppRoutingModule     from './AppRouting.module';
 
@@ -19,6 +19,7 @@ import AppRoutingModule     from './AppRouting.module';
         DateTime,
         Intercom,
         Feedback,
+        HomeModule,
         AppRoutingModule,
     ],
     providers: [

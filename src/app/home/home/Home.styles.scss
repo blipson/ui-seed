@@ -1,0 +1,14 @@
+home {
+   table {
+     width: 100%;
+   }
+
+   input[type='checkbox'] {
+     position: inherit;
+     opacity: 1;
+   }
+
+   .checked-cell {
+     background-color: #D9F2FB;
+   }
+ }

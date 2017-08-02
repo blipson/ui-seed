@@ -7,12 +7,11 @@ import HomeRoutingModule   from './HomeRouting.module';
 @NgModule({
     imports: [
         HomeRoutingModule,
-        DataXREFRoutingModule,
     ],
     declarations: [
         HomeComponent,
     ],
 })
-class DataXREFModule {}
+class HomeModule {}
 
-export default DataXREFModule;
+export default HomeModule;
