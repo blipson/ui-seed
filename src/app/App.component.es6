@@ -2,9 +2,11 @@ import { RootScope,
          State,
          StateParams   } from 'ng-facade/a1';
 import { Component,
-         Inject        } from 'ng-facade/core';
+         Inject,
+         OnInit        } from 'ng-facade/core';
+import { Implements    } from 'ng-facade/interface';
 import { ErrorHandler,
-         Settings      } from 'ngf-shared/services';
+         Settings     } from 'ngf-shared/services';
 
 import template from './App.template.html!text';
 import styles   from './App.styles.min.css!text';
@@ -25,11 +27,12 @@ import styles   from './App.styles.min.css!text';
     rootScope:    RootScope,
     state:        State,
 }) /* eslint-enable no-multi-spaces */
+@Implements(OnInit)
 class AppComponent {
     navItems = [
         {
             state: 'home',
-            name:  '{{ "UI Seed" | translate }}', // Translation isn't working
+            name:  'Home', // Translation isn't working
         },
     ];
 
