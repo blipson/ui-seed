@@ -86,8 +86,8 @@
       "jquery": "github:components/jquery@2.1",
       "keycodes": "github:cnordhougen/keycodes@master",
       "moment-timezone": "npm:moment-timezone@0.5.4",
-      "ng-facade": "github:SPSCommerce/ng-facade@4.0.3",
-      "ngf-shared": "github:SPSCommerce/ngf-shared@2.1.0",
+      "ng-facade": "github:SPSCommerce/ng-facade@4.2.0",
+      "ngf-shared": "github:SPSCommerce/ngf-shared@3.1.2",
       "text": "github:systemjs/plugin-text@0.0.7",
       "webui-core": "github:SPSCommerce/webui-core@2.7.0-rc.2",
       "webui-feedback": "github:SPSCommerce/webui-feedback@1.2.5"

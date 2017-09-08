@@ -30,19 +30,20 @@ System.config({
     "jquery": "npm:jquery@2.1.4",
     "keycodes": "github:cnordhougen/keycodes@master",
     "moment-timezone": "npm:moment-timezone@0.5.4",
-    "ng-facade": "github:SPSCommerce/ng-facade@4.0.3",
-    "ngf-shared": "github:SPSCommerce/ngf-shared@2.1.0",
+    "ng-facade": "github:SPSCommerce/ng-facade@4.2.0",
+    "ngf-shared": "github:SPSCommerce/ngf-shared@3.1.2",
     "text": "github:systemjs/plugin-text@0.0.7",
     "webui-core": "github:SPSCommerce/webui-core@2.7.0-rc.2",
     "webui-feedback": "github:SPSCommerce/webui-feedback@1.2.5",
-    "github:SPSCommerce/ng-facade@4.0.3": {
+    "github:SPSCommerce/ng-facade@4.2.0": {
       "angular": "github:angular/bower-angular@1.4.8",
       "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "angular/bower-angular": "github:angular/bower-angular@1.5.11",
       "eventemitter3": "npm:eventemitter3@2.0.2",
       "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.7",
       "text": "github:systemjs/plugin-text@0.0.7"
     },
-    "github:SPSCommerce/ngf-shared@2.1.0": {
+    "github:SPSCommerce/ngf-shared@3.1.2": {
       "angular": "github:angular/bower-angular@1.4.8",
       "angular-mocks": "github:angular/bower-angular-mocks@1.4.8",
       "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
@@ -51,7 +52,7 @@ System.config({
       "jquery": "npm:jquery@2.1.4",
       "keycodes": "github:cnordhougen/keycodes@master",
       "moment-timezone": "npm:moment-timezone@0.5.4",
-      "ng-facade": "github:SPSCommerce/ng-facade@4.0.3",
+      "ng-facade": "github:SPSCommerce/ng-facade@4.2.0",
       "text": "github:systemjs/plugin-text@0.0.7"
     },
     "github:SPSCommerce/webui-core@2.7.0-rc.2": {
