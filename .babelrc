@@ -1,4 +1,24 @@
 {
-  "presets": [ "es2015", "stage-1" ],
-  "plugins": [ "transform-runtime", "transform-decorators-legacy", "transform-function-bind" ]
+    "presets": [
+        "stage-1",
+        [ "env", {
+            "targets": {
+                "browsers": [
+                    "last 2 Chrome versions",
+                    "last 2 Firefox versions",
+                    "last 2 Safari versions",
+                    "last 2 Edge versions"
+                ]
+            }
+        }]
+    ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "transform-function-bind",
+
+        // required due to a bug with classes that have async methods
+        // AFAIK this bug is fixed in Babel 7 which is not released yet
+        "transform-class-properties",
+        "transform-es2015-classes"
+    ]
 }

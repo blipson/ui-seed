@@ -6,8 +6,9 @@ export default gulp => gulp.task(
         const del = require('del');
         return del([
             gulp.files.build,
+            gulp.files.css,
             gulp.files.js,
-            gulp.files.jsMaps,
+            gulp.files.maps,
         ]);
     }
 );

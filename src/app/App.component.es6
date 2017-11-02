@@ -43,6 +43,7 @@ class AppComponent {
         });
 
         await this.cfg.get();
+        this.cfg.selectedEnv = this.cfg.environ;
         this.intercom.config({ app_id: this.cfg.intercomAppID });
 
         this.rootScope.$on('$stateChangeSuccess', ::this.setTitleFromState);

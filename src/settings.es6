@@ -4,16 +4,7 @@ const settings = {
         intercomAppID: '',
     },
 
-    env: {
-        local: {
-            APIEndpoint: 'https://localhost:8090',
-        },
-
-        prod: {
-            selectedEnv:   'prod',
-            APIEndpoint:   '',
-        },
-    },
+    env: {},
 };
 
 export default settings;

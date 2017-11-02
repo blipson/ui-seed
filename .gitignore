@@ -44,14 +44,13 @@ jspm_packages/*
 
 .DS_Store
 
+src/**/*.css
+src/**/*.js
+src/**/*.map
 docs/
 build/**/*
 test/junit*
 test/reports/
-src/**/*.js
-!src/**/*.spec.js
-src/**/*.js.map
 
 yarn.lock
-package-lock.json
 

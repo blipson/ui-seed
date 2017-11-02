@@ -1,12 +1,6 @@
 System.config({
   defaultJSExtensions: true,
-  transpiler: "babel",
-  babelOptions: {
-    "optional": [
-      "runtime",
-      "optimisation.modules.system"
-    ]
-  },
+  transpiler: false,
   paths: {
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
@@ -15,7 +9,7 @@ System.config({
   map: {
     "angular": "github:angular/bower-angular@1.5.11",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.8",
-    "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+    "angular-ui-router": "github:angular-ui/ui-router@0.2.18",
     "axios": "npm:axios@0.15.3",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
@@ -31,30 +25,22 @@ System.config({
     "keycodes": "github:cnordhougen/keycodes@master",
     "moment-timezone": "npm:moment-timezone@0.5.4",
     "ng-facade": "github:SPSCommerce/ng-facade@5.0.1",
-    "ngf-shared": "github:SPSCommerce/ngf-shared@3.2.1",
+    "ngf-shared": "github:SPSCommerce/ngf-shared@4.2.0",
     "text": "github:systemjs/plugin-text@0.0.7",
     "webui-core": "github:SPSCommerce/webui-core@2.7.0-rc.2",
     "webui-feedback": "github:SPSCommerce/webui-feedback@1.2.5",
-    "github:SPSCommerce/ng-facade@5.0.0": {
-      "angular": "github:angular/bower-angular@1.5.11",
-      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
-      "angular/bower-angular": "github:angular/bower-angular@1.5.11",
-      "eventemitter3": "npm:eventemitter3@2.0.2",
-      "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.7",
-      "text": "github:systemjs/plugin-text@0.0.7"
-    },
     "github:SPSCommerce/ng-facade@5.0.1": {
       "angular": "github:angular/bower-angular@1.5.11",
-      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "angular-ui-router": "github:angular-ui/ui-router@0.2.18",
       "angular/bower-angular": "github:angular/bower-angular@1.5.11",
       "eventemitter3": "npm:eventemitter3@2.0.2",
       "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.7",
       "text": "github:systemjs/plugin-text@0.0.7"
     },
-    "github:SPSCommerce/ngf-shared@3.2.1": {
+    "github:SPSCommerce/ngf-shared@4.2.0": {
       "angular": "github:angular/bower-angular@1.5.11",
       "angular-mocks": "github:angular/bower-angular-mocks@1.4.8",
-      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "angular-ui-router": "github:angular-ui/ui-router@0.2.18",
       "core-decorators": "npm:core-decorators@0.14.0",
       "http-status": "npm:http-status@1.0.1",
       "jquery": "npm:jquery@2.1.4",
@@ -72,7 +58,7 @@ System.config({
       "angular-sanitize": "github:angular/bower-angular-sanitize@1.4.8",
       "angular-translate": "github:angular-translate/bower-angular-translate@2.13.0",
       "angular-translate-loader-partial": "github:angular-translate/bower-angular-translate-loader-partial@2.13.0",
-      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "angular-ui-router": "github:angular-ui/ui-router@0.2.18",
       "chosen-npm": "npm:chosen-npm@1.4.2",
       "css": "github:systemjs/plugin-css@0.1.20",
       "font-awesome": "npm:font-awesome@4.5.0",
@@ -102,7 +88,7 @@ System.config({
     "github:angular-translate/bower-angular-translate@2.13.0": {
       "angular": "github:angular/bower-angular@1.5.11"
     },
-    "github:angular-ui/ui-router@0.2.15": {
+    "github:angular-ui/ui-router@0.2.18": {
       "angular": "github:angular/bower-angular@1.5.11"
     },
     "github:angular/bower-angular-mocks@1.4.8": {
