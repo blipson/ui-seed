@@ -13,6 +13,23 @@ import styles   from './Home.styles.min.css!text';
 }) /* eslint-enable no-multi-spaces */
 @Inject({ state: State })
 class HomeComponent {
+    webDocUid = '';
+    dummyWebDoc = {
+        web_doc_uid: 309518960,
+        form_uid: 5124,
+        app_key1: 246810,
+        document_timestamp: 'Aug 8, 2015',
+        sender_uid: 11009,
+        receiver_uid: 65652,
+        engine_key: '093TSTINTDEMO',
+        access_status: 12
+    };
+    responseWebDoc = {};
+    searchWebDocs($event) {
+        if ($event.keyCode === 13) {
+            this.responseWebDoc = this.dummyWebDoc;
+        }
+    }
 }
 
 export default HomeComponent;

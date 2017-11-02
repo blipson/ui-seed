@@ -1,1 +1,49 @@
-<h2>HELLO</h2>
+<div class="row">
+    <div class="small-16 large-16 columns">
+        <fieldset>
+            <legend>Select Web Doc</legend>
+            <div class="row">
+                <form>
+                    <div class="small-5 large-5 columns">
+                        <input ng-keyup="ctrl.searchWebDocs($event)" [(ngModel)]="ctrl.webDocUid" type="text" autofocus/>
+                    </div>
+                    <div class="small-1 large-11 columns"></div>
+                </form>
+            </div>
+            <div *ngIf="ctrl.responseWebDoc.web_doc_uid" class="row">
+                <div class="small-16 large-16 columns">
+                    <table>
+                        <thead>
+                            <th>Web Doc UID</th>
+                            <th>Form UID</th>
+                            <th>App Key 1</th>
+                            <th>Document Timestamp</th>
+                            <th>Sender UID</th>
+                            <th>Receiver UID</th>
+                            <th>Engine Key</th>
+                            <th>Access Status</th>
+                        </thead>
+                        <tbody>
+                            <td>{{ctrl.responseWebDoc.web_doc_uid}}</td>
+                            <td>{{ctrl.responseWebDoc.form_uid}}</td>
+                            <td>{{ctrl.responseWebDoc.app_key1}}</td>
+                            <td>{{ctrl.responseWebDoc.document_timestamp}}</td>
+                            <td>{{ctrl.responseWebDoc.sender_uid}}</td>
+                            <td>{{ctrl.responseWebDoc.receiver_uid}}</td>
+                            <td>{{ctrl.responseWebDoc.engine_key}}</td>
+                            <td>{{ctrl.responseWebDoc.access_status}}</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br/>
+            <div *ngIf="ctrl.responseWebDoc.web_doc_uid" class="row">
+                <div class="small-16 large-16 columns" style="margin-bottom: 50px;">
+                    <div align="center">
+                        <button class="confirm">POC Reset</button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
