@@ -13,7 +13,7 @@ System.config({
   },
 
   map: {
-    "angular": "github:angular/bower-angular@1.4.8",
+    "angular": "github:angular/bower-angular@1.5.11",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.8",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
     "axios": "npm:axios@0.15.3",
@@ -30,7 +30,7 @@ System.config({
     "jquery": "npm:jquery@2.1.4",
     "keycodes": "github:cnordhougen/keycodes@master",
     "moment-timezone": "npm:moment-timezone@0.5.4",
-    "ng-facade": "github:SPSCommerce/ng-facade@5.0.0",
+    "ng-facade": "github:SPSCommerce/ng-facade@5.0.1",
     "ngf-shared": "github:SPSCommerce/ngf-shared@3.2.1",
     "text": "github:systemjs/plugin-text@0.0.7",
     "webui-core": "github:SPSCommerce/webui-core@2.7.0-rc.2",
@@ -43,8 +43,16 @@ System.config({
       "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.7",
       "text": "github:systemjs/plugin-text@0.0.7"
     },
+    "github:SPSCommerce/ng-facade@5.0.1": {
+      "angular": "github:angular/bower-angular@1.5.11",
+      "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
+      "angular/bower-angular": "github:angular/bower-angular@1.5.11",
+      "eventemitter3": "npm:eventemitter3@2.0.2",
+      "systemjs/plugin-text": "github:systemjs/plugin-text@0.0.7",
+      "text": "github:systemjs/plugin-text@0.0.7"
+    },
     "github:SPSCommerce/ngf-shared@3.2.1": {
-      "angular": "github:angular/bower-angular@1.4.8",
+      "angular": "github:angular/bower-angular@1.5.11",
       "angular-mocks": "github:angular/bower-angular-mocks@1.4.8",
       "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
       "core-decorators": "npm:core-decorators@0.14.0",
@@ -52,11 +60,11 @@ System.config({
       "jquery": "npm:jquery@2.1.4",
       "keycodes": "github:cnordhougen/keycodes@master",
       "moment-timezone": "npm:moment-timezone@0.5.4",
-      "ng-facade": "github:SPSCommerce/ng-facade@5.0.0",
+      "ng-facade": "github:SPSCommerce/ng-facade@5.0.1",
       "text": "github:systemjs/plugin-text@0.0.7"
     },
     "github:SPSCommerce/webui-core@2.7.0-rc.2": {
-      "angular": "github:angular/bower-angular@1.4.8",
+      "angular": "github:angular/bower-angular@1.5.11",
       "angular-click-outside": "npm:angular-click-outside@1.2.0",
       "angular-cookie": "github:ivpusic/angular-cookie@4.0.10",
       "angular-foundation": "github:yalabot/angular-foundation-bower@0.8.0",
@@ -80,7 +88,7 @@ System.config({
       "wildcard": "npm:wildcard@1.1.2"
     },
     "github:SPSCommerce/webui-feedback@1.2.5": {
-      "angular": "github:angular/bower-angular@1.4.8",
+      "angular": "github:angular/bower-angular@1.5.11",
       "css": "github:systemjs/plugin-css@0.1.20",
       "jquery": "npm:jquery@2.1.4",
       "lodash": "npm:lodash@3.10.1",
@@ -88,20 +96,20 @@ System.config({
       "webui-core": "github:SPSCommerce/webui-core@2.7.0-rc.2"
     },
     "github:angular-translate/bower-angular-translate-loader-partial@2.13.0": {
-      "angular": "github:angular/bower-angular@1.4.8",
+      "angular": "github:angular/bower-angular@1.5.11",
       "angular-translate": "github:angular-translate/bower-angular-translate@2.13.0"
     },
     "github:angular-translate/bower-angular-translate@2.13.0": {
-      "angular": "github:angular/bower-angular@1.4.8"
+      "angular": "github:angular/bower-angular@1.5.11"
     },
     "github:angular-ui/ui-router@0.2.15": {
-      "angular": "github:angular/bower-angular@1.4.8"
+      "angular": "github:angular/bower-angular@1.5.11"
     },
     "github:angular/bower-angular-mocks@1.4.8": {
-      "angular": "github:angular/bower-angular@1.4.8"
+      "angular": "github:angular/bower-angular@1.5.11"
     },
     "github:angular/bower-angular-sanitize@1.4.8": {
-      "angular": "github:angular/bower-angular@1.4.8"
+      "angular": "github:angular/bower-angular@1.5.11"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
